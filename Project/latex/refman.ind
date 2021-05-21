@@ -1,0 +1,86 @@
+\begin{theindex}
+
+  \item {BoardT}
+    \subitem {src\+::\+BoardT}, \hyperpage{6}
+
+  \indexspace
+
+  \item {can\+Move}
+    \subitem {src\+::\+BoardT}, \hyperpage{6}
+    \subitem {src\+::\+Game\+Controller}, \hyperpage{10}
+  \item {check\+Win}
+    \subitem {src\+::\+Game\+Controller}, \hyperpage{10}
+
+  \indexspace
+
+  \item {get\+Board}
+    \subitem {src\+::\+BoardT}, \hyperpage{6}
+  \item {get\+Instance}
+    \subitem {src\+::\+Game\+Controller}, \hyperpage{10}
+  \item {get\+Score}
+    \subitem {src\+::\+BoardT}, \hyperpage{6}
+  \item {get\+Status}
+    \subitem {src\+::\+BoardT}, \hyperpage{7}
+    \subitem {src\+::\+Game\+Controller}, \hyperpage{11}
+
+  \indexspace
+
+  \item {has\+Won}
+    \subitem {src\+::\+BoardT}, \hyperpage{7}
+
+  \indexspace
+
+  \item {initialize\+Game}
+    \subitem {src\+::\+Game\+Controller}, \hyperpage{11}
+
+  \indexspace
+
+  \item {move}
+    \subitem {src\+::\+BoardT}, \hyperpage{7}
+    \subitem {src\+::\+Game\+Controller}, \hyperpage{11}
+
+  \indexspace
+
+  \item {print\+Board}
+    \subitem {src\+::\+User\+Interface}, \hyperpage{13}
+
+  \indexspace
+
+  \item {read\+Input}
+    \subitem {src\+::\+Game\+Controller}, \hyperpage{11}
+  \item {run\+Game}
+    \subitem {src\+::\+Game\+Controller}, \hyperpage{12}
+
+  \indexspace
+
+  \item {src.\+BoardT}, \hyperpage{5}
+  \item {src.\+Demo}, \hyperpage{8}
+  \item {src.\+DirectionT}, \hyperpage{8}
+  \item {src.\+Game\+Controller}, \hyperpage{9}
+  \item {src.\+User\+Interface}, \hyperpage{12}
+  \item {src/\+Board\+T.\+java}, \hyperpage{15}
+  \item {src/\+Demo.\+java}, \hyperpage{15}
+  \item {src/\+Direction\+T.\+java}, \hyperpage{16}
+  \item {src/\+Game\+Controller.\+java}, \hyperpage{16}
+  \item {src/\+User\+Interface.\+java}, \hyperpage{17}
+  \item {src\+::\+BoardT}
+    \subitem {BoardT}, \hyperpage{6}
+    \subitem {can\+Move}, \hyperpage{6}
+    \subitem {get\+Board}, \hyperpage{6}
+    \subitem {get\+Score}, \hyperpage{6}
+    \subitem {get\+Status}, \hyperpage{7}
+    \subitem {has\+Won}, \hyperpage{7}
+    \subitem {move}, \hyperpage{7}
+  \item {src\+::\+Game\+Controller}
+    \subitem {can\+Move}, \hyperpage{10}
+    \subitem {check\+Win}, \hyperpage{10}
+    \subitem {get\+Instance}, \hyperpage{10}
+    \subitem {get\+Status}, \hyperpage{11}
+    \subitem {initialize\+Game}, \hyperpage{11}
+    \subitem {move}, \hyperpage{11}
+    \subitem {read\+Input}, \hyperpage{11}
+    \subitem {run\+Game}, \hyperpage{12}
+  \item {src\+::\+User\+Interface}
+    \subitem {print\+Board}, \hyperpage{13}
+
+\end{theindex}

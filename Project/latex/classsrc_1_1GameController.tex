@@ -1,0 +1,185 @@
+\hypertarget{classsrc_1_1GameController}{}\section{src.\+Game\+Controller Class Reference}
+\label{classsrc_1_1GameController}\index{src.\+Game\+Controller@{src.\+Game\+Controller}}
+
+
+An abstract object for dealing with the user input and playing the game.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classsrc_1_1GameController_a08f904aaa7bd33a394efa613f1381f34}{initialize\+Game} (int size, int number)
+\begin{DoxyCompactList}\small\item\em Initializes the game. \end{DoxyCompactList}\item 
+String \hyperlink{classsrc_1_1GameController_a20d10d112b3e30132c8b8594f2ceb6dd}{read\+Input} ()
+\begin{DoxyCompactList}\small\item\em Get string input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsrc_1_1GameController_a149a141092c49bf3b247302a67f2841e}\label{classsrc_1_1GameController_a149a141092c49bf3b247302a67f2841e}} 
+void \hyperlink{classsrc_1_1GameController_a149a141092c49bf3b247302a67f2841e}{add\+Cell} ()
+\begin{DoxyCompactList}\small\item\em Adds a cell to the model object (game board). \end{DoxyCompactList}\item 
+void \hyperlink{classsrc_1_1GameController_a077ce144db0723f692c64245fb0afbab}{move} (\hyperlink{enumsrc_1_1DirectionT}{DirectionT} direction)
+\begin{DoxyCompactList}\small\item\em Slides board in given direction. \end{DoxyCompactList}\item 
+boolean \hyperlink{classsrc_1_1GameController_adc7871ab4e7d684ff7c2f81e60b5eef0}{get\+Status} ()
+\begin{DoxyCompactList}\small\item\em Determines the game\textquotesingle{}s status. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsrc_1_1GameController_afefda9765209aacb5de8d74ede712a06}\label{classsrc_1_1GameController_afefda9765209aacb5de8d74ede712a06}} 
+void \hyperlink{classsrc_1_1GameController_afefda9765209aacb5de8d74ede712a06}{display\+Welcome\+Message} ()
+\begin{DoxyCompactList}\small\item\em Updates the view module to display a welcome message. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsrc_1_1GameController_a09741c684c6fed9e4f637d84aa5c8f8f}\label{classsrc_1_1GameController_a09741c684c6fed9e4f637d84aa5c8f8f}} 
+void \hyperlink{classsrc_1_1GameController_a09741c684c6fed9e4f637d84aa5c8f8f}{display\+Board} ()
+\begin{DoxyCompactList}\small\item\em Updates the view module to display the board. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsrc_1_1GameController_a7c4b05a481b3f507bf6a2f111f86efbb}\label{classsrc_1_1GameController_a7c4b05a481b3f507bf6a2f111f86efbb}} 
+void \hyperlink{classsrc_1_1GameController_a7c4b05a481b3f507bf6a2f111f86efbb}{display\+Ending} ()
+\begin{DoxyCompactList}\small\item\em Updates the view module to display an ending message. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsrc_1_1GameController_a1aaa31ecf9d88fc44c007142efbdc97f}\label{classsrc_1_1GameController_a1aaa31ecf9d88fc44c007142efbdc97f}} 
+void \hyperlink{classsrc_1_1GameController_a1aaa31ecf9d88fc44c007142efbdc97f}{display\+Controls} ()
+\begin{DoxyCompactList}\small\item\em Updates the view module to display the controls for the game. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsrc_1_1GameController_a3f8eb397e71c984947d52bb738eb763f}\label{classsrc_1_1GameController_a3f8eb397e71c984947d52bb738eb763f}} 
+void \hyperlink{classsrc_1_1GameController_a3f8eb397e71c984947d52bb738eb763f}{display\+Score} ()
+\begin{DoxyCompactList}\small\item\em Updates the view module to display the score of the game. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsrc_1_1GameController_a04a2c53fa3d059849545bddf0a8a6798}\label{classsrc_1_1GameController_a04a2c53fa3d059849545bddf0a8a6798}} 
+void \hyperlink{classsrc_1_1GameController_a04a2c53fa3d059849545bddf0a8a6798}{display\+Game\+Over} ()
+\begin{DoxyCompactList}\small\item\em Updates the view module to display the game over message. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsrc_1_1GameController_af11e64f609dc41aa38827f9839e8582f}\label{classsrc_1_1GameController_af11e64f609dc41aa38827f9839e8582f}} 
+void \hyperlink{classsrc_1_1GameController_af11e64f609dc41aa38827f9839e8582f}{display\+Game\+Won} ()
+\begin{DoxyCompactList}\small\item\em Updates the view module to display the win message. \end{DoxyCompactList}\item 
+boolean \hyperlink{classsrc_1_1GameController_a5880a025234e64c5ca41a188c4223f19}{check\+Win} ()
+\begin{DoxyCompactList}\small\item\em Determines whether the game has been won. \end{DoxyCompactList}\item 
+boolean \hyperlink{classsrc_1_1GameController_aab620640062cc1e977a11d090af2ac46}{can\+Move} (\hyperlink{enumsrc_1_1DirectionT}{DirectionT} direction)
+\begin{DoxyCompactList}\small\item\em Determines if the model module (board) can be moved in the given direction. \end{DoxyCompactList}\item 
+void \hyperlink{classsrc_1_1GameController_ac77f1748a5500f840a22824b9c774f1d}{run\+Game} ()
+\begin{DoxyCompactList}\small\item\em Runs the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classsrc_1_1GameController}{Game\+Controller} \hyperlink{classsrc_1_1GameController_a16d38d4e6e0e349e3455b2f9ec24d275}{get\+Instance} (\hyperlink{classsrc_1_1BoardT}{BoardT} model, \hyperlink{classsrc_1_1UserInterface}{User\+Interface} view)
+\begin{DoxyCompactList}\small\item\em Public static method for obtaining a single instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An abstract object for dealing with the user input and playing the game. 
+
+The game leverages and combines the functionalities of \hyperlink{classsrc_1_1BoardT}{BoardT} and \hyperlink{classsrc_1_1UserInterface}{User\+Interface}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classsrc_1_1GameController_aab620640062cc1e977a11d090af2ac46}\label{classsrc_1_1GameController_aab620640062cc1e977a11d090af2ac46}} 
+\index{src\+::\+Game\+Controller@{src\+::\+Game\+Controller}!can\+Move@{can\+Move}}
+\index{can\+Move@{can\+Move}!src\+::\+Game\+Controller@{src\+::\+Game\+Controller}}
+\subsubsection{\texorpdfstring{can\+Move()}{canMove()}}
+{\footnotesize\ttfamily boolean src.\+Game\+Controller.\+can\+Move (\begin{DoxyParamCaption}\item[{\hyperlink{enumsrc_1_1DirectionT}{DirectionT}}]{direction }\end{DoxyParamCaption})}
+
+
+
+Determines if the model module (board) can be moved in the given direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & The direction in which to determine whether the module can be moved. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the board can be moved, or False when it can not. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsrc_1_1GameController_a5880a025234e64c5ca41a188c4223f19}\label{classsrc_1_1GameController_a5880a025234e64c5ca41a188c4223f19}} 
+\index{src\+::\+Game\+Controller@{src\+::\+Game\+Controller}!check\+Win@{check\+Win}}
+\index{check\+Win@{check\+Win}!src\+::\+Game\+Controller@{src\+::\+Game\+Controller}}
+\subsubsection{\texorpdfstring{check\+Win()}{checkWin()}}
+{\footnotesize\ttfamily boolean src.\+Game\+Controller.\+check\+Win (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Determines whether the game has been won. 
+
+\begin{DoxyReturn}{Returns}
+True when the game has been won, and false if it has not. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsrc_1_1GameController_a16d38d4e6e0e349e3455b2f9ec24d275}\label{classsrc_1_1GameController_a16d38d4e6e0e349e3455b2f9ec24d275}} 
+\index{src\+::\+Game\+Controller@{src\+::\+Game\+Controller}!get\+Instance@{get\+Instance}}
+\index{get\+Instance@{get\+Instance}!src\+::\+Game\+Controller@{src\+::\+Game\+Controller}}
+\subsubsection{\texorpdfstring{get\+Instance()}{getInstance()}}
+{\footnotesize\ttfamily static \hyperlink{classsrc_1_1GameController}{Game\+Controller} src.\+Game\+Controller.\+get\+Instance (\begin{DoxyParamCaption}\item[{\hyperlink{classsrc_1_1BoardT}{BoardT}}]{model,  }\item[{\hyperlink{classsrc_1_1UserInterface}{User\+Interface}}]{view }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Public static method for obtaining a single instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & The game model. \\
+\hline
+{\em view} & The \hyperlink{classsrc_1_1UserInterface}{User\+Interface} view \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The single \hyperlink{classsrc_1_1GameController}{Game\+Controller} object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsrc_1_1GameController_adc7871ab4e7d684ff7c2f81e60b5eef0}\label{classsrc_1_1GameController_adc7871ab4e7d684ff7c2f81e60b5eef0}} 
+\index{src\+::\+Game\+Controller@{src\+::\+Game\+Controller}!get\+Status@{get\+Status}}
+\index{get\+Status@{get\+Status}!src\+::\+Game\+Controller@{src\+::\+Game\+Controller}}
+\subsubsection{\texorpdfstring{get\+Status()}{getStatus()}}
+{\footnotesize\ttfamily boolean src.\+Game\+Controller.\+get\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Determines the game\textquotesingle{}s status. 
+
+\begin{DoxyReturn}{Returns}
+The status of the game. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsrc_1_1GameController_a08f904aaa7bd33a394efa613f1381f34}\label{classsrc_1_1GameController_a08f904aaa7bd33a394efa613f1381f34}} 
+\index{src\+::\+Game\+Controller@{src\+::\+Game\+Controller}!initialize\+Game@{initialize\+Game}}
+\index{initialize\+Game@{initialize\+Game}!src\+::\+Game\+Controller@{src\+::\+Game\+Controller}}
+\subsubsection{\texorpdfstring{initialize\+Game()}{initializeGame()}}
+{\footnotesize\ttfamily void src.\+Game\+Controller.\+initialize\+Game (\begin{DoxyParamCaption}\item[{int}]{size,  }\item[{int}]{number }\end{DoxyParamCaption})}
+
+
+
+Initializes the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & The size of the board \\
+\hline
+{\em number} & The game\textquotesingle{}s base number \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsrc_1_1GameController_a077ce144db0723f692c64245fb0afbab}\label{classsrc_1_1GameController_a077ce144db0723f692c64245fb0afbab}} 
+\index{src\+::\+Game\+Controller@{src\+::\+Game\+Controller}!move@{move}}
+\index{move@{move}!src\+::\+Game\+Controller@{src\+::\+Game\+Controller}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void src.\+Game\+Controller.\+move (\begin{DoxyParamCaption}\item[{\hyperlink{enumsrc_1_1DirectionT}{DirectionT}}]{direction }\end{DoxyParamCaption})}
+
+
+
+Slides board in given direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & The direction to move the board. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsrc_1_1GameController_a20d10d112b3e30132c8b8594f2ceb6dd}\label{classsrc_1_1GameController_a20d10d112b3e30132c8b8594f2ceb6dd}} 
+\index{src\+::\+Game\+Controller@{src\+::\+Game\+Controller}!read\+Input@{read\+Input}}
+\index{read\+Input@{read\+Input}!src\+::\+Game\+Controller@{src\+::\+Game\+Controller}}
+\subsubsection{\texorpdfstring{read\+Input()}{readInput()}}
+{\footnotesize\ttfamily String src.\+Game\+Controller.\+read\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get string input. 
+
+\begin{DoxyReturn}{Returns}
+The input. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsrc_1_1GameController_ac77f1748a5500f840a22824b9c774f1d}\label{classsrc_1_1GameController_ac77f1748a5500f840a22824b9c774f1d}} 
+\index{src\+::\+Game\+Controller@{src\+::\+Game\+Controller}!run\+Game@{run\+Game}}
+\index{run\+Game@{run\+Game}!src\+::\+Game\+Controller@{src\+::\+Game\+Controller}}
+\subsubsection{\texorpdfstring{run\+Game()}{runGame()}}
+{\footnotesize\ttfamily void src.\+Game\+Controller.\+run\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Runs the game. 
+
+Checks for multiple forms of conditions and inputs and makes decisions based on them. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{GameController_8java}{Game\+Controller.\+java}\end{DoxyCompactItemize}
